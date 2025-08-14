@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isha Ranjan Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      background: #ff4d6d;
+      padding: 1rem 2rem;
+      color: white;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .home {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 100vh;
+      background: linear-gradient(to right, #ffccd5, #ff4d6d);
+      padding: 0 5%;
+    }
+    .home .intro {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #fff;
+      width: 50%;
+    }
+    .home img {
+      width: 45%;
+      max-height: 90vh;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    section {
+      padding: 3rem 5%;
+    }
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #ff4d6d;
+    }
+    .skills img {
+      width: 60px;
+      height: 60px;
+      margin-right: 1rem;
+    }
+    .skill-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+      background: #ffe6ea;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .skill-item:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <nav>Isha Ranjan Portfolio</nav>
+
+  <section class="home">
+    <div class="intro">
+      Hi,<br />I am <span style="color: #fff">Isha Ranjan</span>
+    </div>
+    <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=800&q=80" alt="Laptop" />
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a frontend web developer passionate about creating appropriate and user-friendly websites. I am always eager to improve my skills in HTML and CSS.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>School:</strong> I completed my primary education and +2 from Army Public School, Ranchi.</p>
+    <p><strong>Bachelor's:</strong> Currently pursuing BCA from Sarala Birla University (SBU).</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png" alt="C" />
+        <span>C</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="C++" />
+        <span>C++</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML" />
+        <span>HTML</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" />
+        <span>CSS</span>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" />
+        <span>JavaScript</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
